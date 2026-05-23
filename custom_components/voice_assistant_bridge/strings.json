@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Voice Assistant Bridge",
+        "description": "Connect Home Assistant Assist to a voice-assistant service (https://github.com/maxmaxme/voice-assistant). HA's conversation agent slot will delegate to this service via POST /assist; STT and TTS in the pipeline are unaffected.",
+        "data": {
+          "base_url": "Base URL",
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach voice-assistant at the given URL. Check that the service is running and /health returns 200."
+    },
+    "abort": {
+      "already_configured": "This voice-assistant URL is already configured."
+    }
+  }
+}
