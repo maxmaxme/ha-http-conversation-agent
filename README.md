@@ -78,4 +78,6 @@ one. Your existing `voice-assistant` URL + API key still work as-is
 
 ## License
 
-MIT
+[MIT](LICENSE) © 2026 maxmaxme. Permissive on purpose — this is a Home Assistant
+custom integration, so it matches the HA ecosystem's norms (HA core is
+Apache-2.0) and stays freely reusable.
