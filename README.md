@@ -76,13 +76,6 @@ Settings → **Voice assistants** → pick your pipeline → **Conversation agen
 "HTTP Conversation Agent". Now every Assist utterance on that pipeline is
 forwarded to your backend.
 
-## ⬆️ Migrating from `voice_assistant_bridge` (≤ 0.2.x)
-
-Renamed in 0.3 (`voice_assistant_bridge` → `http_conversation_agent`) to reflect
-that any HTTP backend works. HA treats this as a new integration — remove the old
-entry in Settings → Devices & Services, then add the new one. Your existing URL +
-API key still work as-is (defaults match: endpoint `/assist`, health `/health`).
-
 ## 📄 License
 
 [MIT](LICENSE) © 2026 maxmaxme. Permissive on purpose — as a Home Assistant
